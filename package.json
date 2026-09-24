@@ -21,7 +21,8 @@
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "typecheck": "tsc --noEmit",
-    "reload-mcp": "pnpm run prepublishOnly && node dist/index.js"
+    "reload-mcp": "pnpm run prepublishOnly && node dist/index.js",
+    "prepare": "npm run build"
   },
   "keywords": [
     "mcp",
